@@ -1,0 +1,13 @@
+{
+  "name": "docker_app",
+  "description": "This is an example of how to use Docker to run and debug your Node.js apps in VSCode.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./app.js",
+    "dev": "nodemon -L --inspect=0.0.0.0:9229 ./app.js"
+  },
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

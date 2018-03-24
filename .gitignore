@@ -1,0 +1,6 @@
+.DS_Store
+.sonarlint
+node_modules/
+npm-debug.log
+
+
